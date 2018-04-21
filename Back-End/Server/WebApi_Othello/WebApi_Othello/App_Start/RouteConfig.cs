@@ -20,7 +20,16 @@ namespace WebApi_Othello
                 "logIn",//URL, ruta de acceso, para acceder al endPoint
                 new
                 {
-                    controller = "Login",//controlador usado(PersonaController)
+                    controller = "Login",//controlador usado)
+                    action = "Login"//metodo a realizar(Login()), está en el controller Login
+                }
+            );
+            routes.MapRoute(
+                "logOut",//ID de la ruta 
+                "logOut",//URL, ruta de acceso, para acceder al endPoint
+                new
+                {
+                    controller = "Login",//controlador usado)
                     action = "Login"//metodo a realizar(Login()), está en el controller Login
                 }
             );
@@ -52,7 +61,7 @@ namespace WebApi_Othello
                 new
                 {
                     controller = "Juego",//controlador usado(PersonaController)
-                    action = "Realizar_Jugada_Jugador"//metodo a realizar(Realizar_Jugada_Sis_Sis()), está en el controller Juego
+                    action = "Realizar_Jugada_Jugador"//metodo a realizar(Realizar_Jugada_Jug_Jug()), está en el controller Juego
                 }
             );
 
@@ -75,6 +84,27 @@ namespace WebApi_Othello
                     action = "actualizar_Puntos_Jugador"//metodo a realizar(Realizar_Jugada_Sis_Sis()), está en el controller Juego
                 }
             );
+
+            routes.MapRoute(
+                "actualizarSesion",//ID de la ruta 
+                "actualizarSesion",//URL, ruta de acceso, para acceder al endPoint
+                new
+                {
+                    controller = "Juego",//controlador usado(PersonaController)
+                    action = "actualizarSesion"//metodo a realizar(Realizar_Jugada_Sis_Sis()), está en el controller Juego
+                }
+            );
+
+            routes.MapRoute(
+                "extraerSesion",//ID de la ruta 
+                "extraerSesion",//URL, ruta de acceso, para acceder al endPoint
+                new
+                {
+                    controller = "Juego",//controlador usado(PersonaController)
+                    action = "extraerSesion"//metodo a realizar(Realizar_Jugada_Sis_Sis()), está en el controller Juego
+                }
+            );
+
 
             routes.MapRoute(
                 name: "Default",

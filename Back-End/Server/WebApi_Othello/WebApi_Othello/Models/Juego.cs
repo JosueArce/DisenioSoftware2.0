@@ -1124,7 +1124,72 @@ namespace WebApi_Othello.Models
 
         }
 
+        public bool actualizar_Sesion(Sesion sesion)
+        {
+            try
+            {
+                connection.Open();
+                sqlQuery = "update dbo.[Sesiones_Juego] set pos_fichas_J1 = @pos_fichas_J1,pos_fichas_J2 = @pos_fichas_J2 where ID_Sesion = @ID_Sesion";
+                command = new SqlCommand(sqlQuery, connection);
+                command.Parameters.AddWithValue("@ID_Sesion", sesion.ID_Sesion);
+                command.Parameters.AddWithValue("@ID_Jugador1", sesion.ID_Jugador1);
+                command.Parameters.AddWithValue("@ID_Jugador2", sesion.ID_Jugador2);
+                command.Parameters.AddWithValue("@pos_fichas_J1", sesion.pos_fichas_J1);
+                command.Parameters.AddWithValue("@pos_fichas_J2", sesion.pos_fichas_J2);
+                command.Parameters.AddWithValue("@tam_matriz", sesion.tam_matriz);
 
+                int resp = command.ExecuteNonQuery();
+
+                connection.Close();
+
+                if (resp == 0) return false; //no hizo el update
+                else return true; //se hizo el update bien
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
+
+        public List<Sesion> extraer_sesiones(string ID_Facebook)
+        {
+            List<Sesion> lista = new List<Sesion>();
+            Sesion registro;
+            
+            try
+            {
+                connection.Open();
+                sqlQuery = "select *  dbo.[Sesiones_Juego]  where ID_Facebook = @ID_Facebook";
+                command = new SqlCommand(sqlQuery, connection);
+                command.Parameters.AddWithValue("@ID_Facebook", ID_Facebook);
+
+                SqlDataReader reader = command.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+                while (reader.Read())
+                {
+                    registro = new Sesion
+                    {
+                        ID_Sesion = reader.GetInt32(0),
+                        ID_Jugador1 = reader.GetString(1),
+                        ID_Jugador2 = reader.GetString(2),
+                        pos_fichas_J1 = reader.GetString(3),
+                        pos_fichas_J2 = reader.GetString(4),
+                        tam_matriz = reader.GetInt32(5)
+
+                    };
+
+                    lista.Add(registro);
+                }
+
+                connection.Close();
+                return lista;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
 
 
     }

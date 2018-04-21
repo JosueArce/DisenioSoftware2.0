@@ -41,11 +41,11 @@
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item" role="presentation"><a class="nav-link active" href="#/status" data-bs-hover-animate="rubberBand" id="nombre_usuario">&nbsp;<button class="btn btn-primary" type="button" id="btn_estadistica"></button><img src="" id="foto_usuario"></a></li>
                 <li
-                        class="nav-item" role="presentation"><a class="nav-link" href="#"><button class="btn btn-primary" type="button" data-bs-hover-animate="pulse" id="btn_notificaciones"><i class="icon ion-ios-bell-outline"></i><span class="badge badge-primary">4</span><span class="badge badge-primary"></span></button></a></li>
+                        class="nav-item" role="presentation"><a class="nav-link" href="#"><button class="btn btn-primary" type="button" data-bs-hover-animate="pulse" id="btn_notificaciones"><i class="icon ion-ios-bell-outline"></i><span class="badge badge-primary"></span><span class="badge badge-primary"></span></button></a></li>
                 <li
                         class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" id="cerrar_sesion"><i class="fa fa-ellipsis-v" id="opciones"></i></a>
                     <div class="dropdown-menu flex-column dropdown-menu-right"
-                         role="menu" id="menu_puntos"><a class="dropdown-item" role="presentation" onclick="location.href='../index.html'">Cerrar sesión</a><a class="dropdown-item" role="presentation" href="#/">Acerca de nosotros</a></div>
+                         role="menu" id="menu_puntos"><a class="dropdown-item" role="presentation" onclick="logOut()">Cerrar sesión</a><a class="dropdown-item" role="presentation" href="#/">Acerca de nosotros</a></div>
                 </li>
             </ul>
         </div>
@@ -54,10 +54,29 @@
 
 <div class="container-fluid" ng-view></div>
 
+<script type="text/javascript">
+    (function () {
+        window._FlyzooApplicationId="5adb5b9abb547e0d709f02a05adb5b4abb547e0d709f029c";
+        var fz = document.createElement('script'); fz.type = 'text/javascript'; fz.async = true;
+        fz.src = '//widget.flyzoo.co/scripts/flyzoo.start.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fz, s);
+    })();
+</script>
+
 
 <script>
     document.getElementById("foto_usuario").setAttribute("src",JSON.parse(localStorage.getItem("user_information")).picture.data.url);
     document.getElementById("btn_estadistica").appendChild(document.createTextNode(JSON.parse(localStorage.getItem("user_information")).name));
+
+    function logOut() {
+
+
+        $.post("http://localhost:50714/logOut", {ID_Facebook : JSON.parse(localStorage.getItem("user_information")).id}, function(result){
+            //logged out
+            location.href='../index.html';
+        });
+
+    }
 </script>
 
 <!--jQuery JS-->
@@ -91,7 +110,7 @@
 <script src="board/JvS/board_JvS_Controller.js"></script>
 <script src="board/JvJ/board_JvJ_Controller.js"></script>
 <script src="new_session/JvS/new_session_JvS_Controller.js"></script>
-<script src="new_session/JvJ/"></script>
+<script src="new_session/JvJ/new_session_JvJ_Controller.js"></script>
 <script src="home/home_Controller.js"></script>
 <script src="status/status_Controller.js"></script>
 

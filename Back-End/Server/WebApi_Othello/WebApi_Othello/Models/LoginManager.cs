@@ -22,12 +22,12 @@ namespace WebApi_Othello.Models
        /// </summary>
        /// <param name="ID_Persona"></param>
        /// <returns></returns>
-       public Boolean check_existence(string ID_Facebook)
+       public Boolean check_existence(string ID_Facebook,string nombre_jugador)
         {
             try
             {
                 connection.Open();
-                sqlQuery = "select COUNT(*) from dbo.[Estadisticas Persona] where ID_Facebook = @ID_Facebook";
+                sqlQuery = "select COUNT(*) from dbo.[Jugadores] where ID_Facebook = @ID_Facebook";
                 command = new SqlCommand(sqlQuery, connection);
                 command.Parameters.AddWithValue("@ID_Facebook", ID_Facebook);
 
@@ -35,8 +35,17 @@ namespace WebApi_Othello.Models
 
                 connection.Close();
 
-                if (resp == 0) return false; // no existe, por ende se generó un nuevo espacio
-                else return true; //ya existe
+                if (resp == -1 || resp == 0)
+                {
+                    create_new_user(ID_Facebook, nombre_jugador);
+                    create_new_user_stats(ID_Facebook);
+                    return true;
+                }
+                else
+                {
+                    logIn(ID_Facebook);
+                    return true;
+                }
             }
             catch (Exception e)
             {
@@ -45,12 +54,73 @@ namespace WebApi_Othello.Models
             }
         }
 
-        public Boolean create_new_user(string ID_Facebook)
+        public void create_new_user(string ID_Facebook,string nombre)
         {
             try
             {
                 connection.Open();
-                sqlQuery = "insert into dbo.[Estadisticas Persona] values(@ID_Facebook)";
+                sqlQuery = "insert into dbo.[Jugadores] values(@ID_Facebook,@Nombre_Jugador,1)";
+                command = new SqlCommand(sqlQuery, connection);
+                command.Parameters.AddWithValue("@ID_Facebook", ID_Facebook);
+                command.Parameters.AddWithValue("@Nombre_Jugador", nombre);
+
+                int resp = command.ExecuteNonQuery();
+
+                connection.Close();       
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
+
+        public void create_new_user_stats(string ID_Facebook)
+        {
+            try
+            {
+                connection.Open();
+                sqlQuery = "insert into dbo.[Estadisticas Persona] values(@ID_Facebook,0,0,0)";
+                command = new SqlCommand(sqlQuery, connection);
+                command.Parameters.AddWithValue("@ID_Facebook", ID_Facebook);
+
+                int resp = command.ExecuteNonQuery();
+
+                connection.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
+
+        public void logIn(string ID_Facebook)
+        {
+            try
+            {
+                connection.Open();
+                sqlQuery = "update dbo.[Jugadores] set Activo = 1 where ID_Facebook = @ID_Facebook";
+                command = new SqlCommand(sqlQuery, connection);
+                command.Parameters.AddWithValue("@ID_Facebook", ID_Facebook);
+
+                int resp = command.ExecuteNonQuery();
+
+                connection.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
+
+        public bool logOut(string ID_Facebook)
+        {
+            try
+            {
+                connection.Open();
+                sqlQuery = "update dbo.[Jugadores] set Activo = 0 where ID_Facebook = @ID_Facebook";
                 command = new SqlCommand(sqlQuery, connection);
                 command.Parameters.AddWithValue("@ID_Facebook", ID_Facebook);
 
@@ -58,8 +128,7 @@ namespace WebApi_Othello.Models
 
                 connection.Close();
 
-                if (resp == -1) return false;
-                else return true;       
+                return true;
             }
             catch (Exception e)
             {
