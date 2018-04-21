@@ -2,18 +2,13 @@ angular.module("appModule")
     .controller("new_sessionJvJ_Controller",function ($scope) {
 
         $scope.match_details = {
-            tam : 5,
+            tam : 0,
             dificultad : 'intermedio',
             fichaJugador : 'f1.png',
             partidasJugar : 1
         };
 
-        $scope.connectedPlayersList = [
-            {
-                id: "123",
-                name:"Josue"
-            }
-        ];
+        $scope.connectedPlayersList = [];
 
 
         $scope.aceptar = function () {
