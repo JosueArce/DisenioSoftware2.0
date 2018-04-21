@@ -1,0 +1,228 @@
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.dll.config
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.pdb
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Antlr3.Runtime.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Newtonsoft.Json.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Helpers.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Mvc.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Optimization.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Razor.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Razor.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebGrease.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Helpers.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Mvc.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Optimization.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Razor.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Razor.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Antlr3.Runtime.pdb
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Newtonsoft.Json.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Razor.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.csprojResolveAssemblyReference.cache
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.csproj.CoreCompileInputs.cache
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.pdb
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.dll.config
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.pdb
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Antlr3.Runtime.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Newtonsoft.Json.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Helpers.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Mvc.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Optimization.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Razor.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Razor.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebGrease.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Helpers.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Mvc.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Optimization.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Razor.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Razor.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Antlr3.Runtime.pdb
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Newtonsoft.Json.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Razor.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.csprojResolveAssemblyReference.cache
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.csproj.CoreCompileInputs.cache
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.pdb
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Security.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Owin.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Security.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Net.Http.Formatting.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Cors.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.Cors.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Net.Http.Formatting.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.Cors.xml
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.Owin.Security.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.csprojResolveAssemblyReference.cache
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.csproj.CoreCompileInputs.cache
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.pdb
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.dll.config
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.pdb
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Antlr3.Runtime.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.Agent.Intercept.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.DependencyCollector.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.ApplicationInsights.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Security.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Web.Infrastructure.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Newtonsoft.Json.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Owin.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Net.Http.Formatting.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Cors.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Helpers.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.Cors.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Mvc.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Optimization.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Razor.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Deployment.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Razor.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebGrease.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Security.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Net.Http.Formatting.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.Cors.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Helpers.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Mvc.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Optimization.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Razor.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Deployment.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Razor.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Antlr3.Runtime.pdb
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Newtonsoft.Json.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.ApplicationInsights.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.DependencyCollector.xml
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.AspNet.SignalR.Core.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.Owin.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.Owin.Security.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Helpers.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Mvc.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Optimization.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Razor.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\TEC\Semestre 1 2018\Diseño\Proyecto\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.pdb
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Antlr3.Runtime.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Security.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Newtonsoft.Json.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Owin.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Net.Http.Formatting.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Cors.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Helpers.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.Cors.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Mvc.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Optimization.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Razor.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Razor.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebGrease.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.Owin.Security.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Net.Http.Formatting.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Http.Cors.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Helpers.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Mvc.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Optimization.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.Razor.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\System.Web.WebPages.Razor.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Newtonsoft.Json.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.Razor.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.dll
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\obj\Debug\WebApi_Othello.pdb
+C:\Users\Daniel\Documents\Github Repositories\Dise-o-de-Software\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\WebApi_Othello.dll.config

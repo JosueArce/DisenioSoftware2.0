@@ -1,0 +1,138 @@
+#heading {
+    margin-top:45px;
+}
+
+.wrap {
+    margin-top:55px;
+}
+
+.formulario input[type=radio] {
+    display:none;
+}
+
+.formulario .radio label {
+    color:#0074D9;
+    padding:5px 15px 5px 51px;
+    display:inline-block;
+    position:relative;
+    font-size:1.5em;
+    border-radius:8px;
+    cursor:pointer;
+    -webkit-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+}
+
+.formulario .radio label:hover {
+    background:rgba(0,116,217,0.1);
+}
+
+.formulario .radio label:before {
+    content:"";
+    width:17px;
+    height:17px;
+    display:inline-block;
+    background:none;
+    border:3px solid #0074d9;
+    position:absolute;
+    border-radius:50%;
+    left:17px;
+    bottom:13px;
+}
+
+.formulario input[type=radio]:checked + label {
+    padding:5px 15px;
+    background:#0074d9;
+    border-radius:8px;
+    color:#fff;
+}
+
+.formulario input[type=radio]:checked + label:before {
+    display:none;
+}
+
+#p_elige {
+    margin-top:-15px;
+}
+
+.cc-selector input {
+    margin:0;
+    padding:0;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+}
+
+.ficha1 {
+    background-image:url(../../../Images/f7.png);
+}
+
+.ficha2 {
+    background-image:url(../../../Images/f12.png);
+}
+
+.ficha3 {
+    background-image:url(../../../Images/f5.png);
+}
+
+.ficha4 {
+    background-image:url(../../../Images/f8.png);
+}
+
+.ficha5 {
+    background-image:url(../../../Images/f4.png);
+}
+
+.ficha6 {
+    background-image:url(../../../Images/f6.png);
+}
+
+.ficha7 {
+    background-image:url(../../../Images/f1.png);
+    background-size:101px 108px;
+}
+
+.ficha8 {
+    background-image:url(../../../Images/f10.png);
+}
+
+.ficha9 {
+    background-image:url(../../../Images/f2.png);
+}
+
+.ficha10 {
+    background-image:url(../../../Images/f9.png);
+    background-size:112px 112px;
+}
+
+.cc-selector input:active + .ficha-cc {
+    opacity:.9;
+}
+
+.cc-selector input:checked + .ficha-cc {
+    -webkit-filter:none;
+    -moz-filter:none;
+    filter:none;
+}
+
+.ficha-cc {
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;
+    height:100px;
+    -webkit-transition:all 100ms ease-in;
+    -moz-transition:all 100ms ease-in;
+    transition:all 100ms ease-in;
+    -webkit-filter:brightness(1.8) grayscale(1) opacity(.7);
+    -moz-filter:brightness(1.8) grayscale(1) opacity(.7);
+    filter:brightness(1.8) grayscale(1) opacity(.7);
+}
+
+.ficha-cc:hover {
+    -webkit-filter:brightness(0.9) grayscale(.5) opacity(.2);
+    -moz-filter:brightness(1.2) grayscale(.5) opacity(.9);
+    filter:brightness(1.2) grayscale(.5) opacity(.9);
+}
+

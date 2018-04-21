@@ -1,0 +1,33 @@
+{
+  "name": "mainproject",
+  "version": "1.0.0",
+  "description": "Proyecto para el curso de diseño de software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xRaGeX/Dise-o-de-Software.git"
+  },
+  "keywords": [
+    "TEC",
+    "Diseño",
+    "de",
+    "Software",
+    "Othello"
+  ],
+  "author": "Josué Arce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xRaGeX/Dise-o-de-Software/issues"
+  },
+  "homepage": "https://github.com/xRaGeX/Dise-o-de-Software#readme",
+  "dependencies": {
+    "angular": "^1.6.10",
+    "angular-route": "^1.6.10",
+    "live-server": "^1.2.0",
+    "npm": "^5.8.0",
+    "sweetalert": "^2.1.0"
+  }
+}

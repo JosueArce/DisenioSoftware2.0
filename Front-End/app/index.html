@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="appModule">
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño de Software</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="../Libraries/Font%20Awesome/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../Libraries/Font%20Awesome/fonts/ionicons.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="board/JvS/board_JvS_CSS.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="status/status.css">
+    <link rel="stylesheet" href="home/home.css">
+    <link rel="stylesheet" href="new_session/JvS/new_session_JvS.css">
+    <link rel="stylesheet" href="new_session/JvS/new_session_JvS.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Advent+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amita">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barrio">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Berkshire+Swash">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bigelow+Rules">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Ops+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin+Sketch">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ceviche+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Diplomata+SC">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+</head>
+<body style="background: #e4e4e4">
+
+<nav class="navbar navbar-light navbar-expand-md" style="background-color:#9bdbc1;">
+    <div class="container-fluid"><a class="navbar-brand" href="#/home"><img src="../Images/othello.png" class="bounce animated" id="logo_othello"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div
+                class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item" role="presentation"><a class="nav-link active" href="#/status" data-bs-hover-animate="rubberBand" id="nombre_usuario">&nbsp;<button class="btn btn-primary" type="button" id="btn_estadistica"></button><img src="" id="foto_usuario"></a></li>
+                <li
+                        class="nav-item" role="presentation"><a class="nav-link" href="#"><button class="btn btn-primary" type="button" data-bs-hover-animate="pulse" id="btn_notificaciones"><i class="icon ion-ios-bell-outline"></i><span class="badge badge-primary">4</span><span class="badge badge-primary"></span></button></a></li>
+                <li
+                        class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" id="cerrar_sesion"><i class="fa fa-ellipsis-v" id="opciones"></i></a>
+                    <div class="dropdown-menu flex-column dropdown-menu-right"
+                         role="menu" id="menu_puntos"><a class="dropdown-item" role="presentation" onclick="location.href='../index.html'">Cerrar sesión</a><a class="dropdown-item" role="presentation" href="#/">Acerca de nosotros</a></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid" ng-view></div>
+
+
+<script>
+    document.getElementById("foto_usuario").setAttribute("src",JSON.parse(localStorage.getItem("user_information")).picture.data.url);
+    document.getElementById("btn_estadistica").appendChild(document.createTextNode(JSON.parse(localStorage.getItem("user_information")).name));
+</script>
+
+<!--jQuery JS-->
+<script src="../Libraries/JS/jquery-3.3.1.min.js"></script>
+
+<!--jQuery SignalR js-->
+<script src="../Libraries/JS/jquery-signalr.min.js"></script>
+
+<!--Popper JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<!--Angular JS-->
+<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+
+<!--Angular Route JS-->
+<script type="text/javascript" src="../node_modules/angular-route/angular-route.min.js"></script>
+
+<!--Bootstrap JS-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--Notify JS-->
+<script src="../Libraries/JS/notify.min.js"></script>
+
+<!--App JS-->
+<script src="app.js"></script>
+
+<!--Factories-->
+<script src="Services/Factories/Main/Http_Request.js"></script>
+
+<!--Controllers-->
+<script src="board/JvS/board_JvS_Controller.js"></script>
+<script src="board/JvJ/board_JvJ_Controller.js"></script>
+<script src="new_session/JvS/new_session_JvS_Controller.js"></script>
+<script src="new_session/JvJ/"></script>
+<script src="home/home_Controller.js"></script>
+<script src="status/status_Controller.js"></script>
+
+
+<!--Font Awesome JS-->
+<script src="../Libraries/Font%20Awesome/JS/fa-solid.min.js"></script>
+<script src="../Libraries/Font%20Awesome/JS/fa-regular.min.js"></script>
+<script src="../Libraries/Font%20Awesome/JS/fa-brands.min.js"></script>
+<script src="../Libraries/Font%20Awesome/JS/fontawesome-all.js"></script>
+
+</body>
+</html>

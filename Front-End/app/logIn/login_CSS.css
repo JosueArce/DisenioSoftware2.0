@@ -1,0 +1,23 @@
+/*Start - Styles for the Login View*/
+#container_div_login{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 15%;
+    font-family: Arial;
+}
+/*--END--*/
+
+/*Start - Styles for the login card*/
+#card_login{
+    border-radius: 4px;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.2), 0 0 0 rgba(0,0,0,0.24);
+}
+/*--END--*/
+
+/*Start - Styles for items in card-body*/
+.card-body{
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*--END--*/
