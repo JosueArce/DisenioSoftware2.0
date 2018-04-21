@@ -31,12 +31,12 @@ namespace WebApi_Othello.Models
                 command = new SqlCommand(sqlQuery, connection);
                 command.Parameters.AddWithValue("@ID_Facebook", ID_Facebook);
 
-                int resp = command.ExecuteNonQuery();
+                var resp = command.ExecuteScalar();
 
                 connection.Close();
 
-                if (resp == -1 || resp == 0)
-                {
+                if (resp == null)
+                { 
                     create_new_user(ID_Facebook, nombre_jugador);
                     create_new_user_stats(ID_Facebook);
                     return true;
