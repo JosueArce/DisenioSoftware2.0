@@ -289,4 +289,3 @@ C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\DisenioSo
 C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\DisenioSoftware2.0\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\DisenioSoftware2.0\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\DisenioSoftware2.0\Back-End\Server\WebApi_Othello\WebApi_Othello\bin\es\System.Web.WebPages.Razor.resources.dll
-

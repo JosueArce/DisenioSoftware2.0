@@ -1124,16 +1124,39 @@ namespace WebApi_Othello.Models
 
         }
 
+        public bool crearSesion(string ID_Jugador1, string ID_Jugador2,  int tam_matriz, string fJ1)
+        {
+            try
+            {
+                connection.Open();
+                sqlQuery = "insert into dbo.[Sesiones] values(@ID_Jugador1,@ID_Jugador2,@tam_matriz,'pJ1','pJ2',1, @ficha_J1,'fJ2',1,0)";
+                command = new SqlCommand(sqlQuery, connection);
+                command.Parameters.AddWithValue("@ID_Jugador1", ID_Jugador1);
+                command.Parameters.AddWithValue("@ID_Jugador2", ID_Jugador2);
+                command.Parameters.AddWithValue("@tam_matriz", tam_matriz);
+                command.Parameters.AddWithValue("@ficha_J1", fJ1);
+
+                int resp = command.ExecuteNonQuery();
+
+                connection.Close();
+
+                 return true; //se hizo la inserccion
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
+
         public bool actualizar_Sesion(Sesion sesion)
         {
             try
             {
                 connection.Open();
-                sqlQuery = "update dbo.[Sesiones_Juego] set pos_fichas_J1 = @pos_fichas_J1,pos_fichas_J2 = @pos_fichas_J2 where ID_Sesion = @ID_Sesion";
+                sqlQuery = "update dbo.[Sesiones] set pos_fichas_J1 = @pos_fichas_J1,pos_fichas_J2 = @pos_fichas_J2 where ID_Sesion = @ID_Sesion";
                 command = new SqlCommand(sqlQuery, connection);
                 command.Parameters.AddWithValue("@ID_Sesion", sesion.ID_Sesion);
-                command.Parameters.AddWithValue("@ID_Jugador1", sesion.ID_Jugador1);
-                command.Parameters.AddWithValue("@ID_Jugador2", sesion.ID_Jugador2);
                 command.Parameters.AddWithValue("@pos_fichas_J1", sesion.pos_fichas_J1);
                 command.Parameters.AddWithValue("@pos_fichas_J2", sesion.pos_fichas_J2);
                 command.Parameters.AddWithValue("@tam_matriz", sesion.tam_matriz);
@@ -1160,7 +1183,7 @@ namespace WebApi_Othello.Models
             try
             {
                 connection.Open();
-                sqlQuery = "select *  dbo.[Sesiones_Juego]  where ID_Facebook = @ID_Facebook";
+                sqlQuery = "select *  dbo.[Sesiones]  where ID_Facebook = @ID_Facebook";
                 command = new SqlCommand(sqlQuery, connection);
                 command.Parameters.AddWithValue("@ID_Facebook", ID_Facebook);
 
@@ -1174,7 +1197,9 @@ namespace WebApi_Othello.Models
                         ID_Jugador2 = reader.GetString(2),
                         pos_fichas_J1 = reader.GetString(3),
                         pos_fichas_J2 = reader.GetString(4),
-                        tam_matriz = reader.GetInt32(5)
+                        tam_matriz = reader.GetInt32(5),
+                        ficha_J1 = reader.GetString(6),
+                        ficha_J2 = reader.GetString(7)
 
                     };
 
@@ -1191,6 +1216,25 @@ namespace WebApi_Othello.Models
             }
         }
 
+        public bool borrarSesion(int ID_Sesion)
+        {
+            try
+            {
+                connection.Open();
+                sqlQuery = "update dbo.[Sesiones] set Estado = 0  where ID_Sesion = @ID_Sesion";
+                command = new SqlCommand(sqlQuery, connection);
+                command.Parameters.AddWithValue("@ID_Sesion", ID_Sesion);
 
+                int resp = command.ExecuteNonQuery();
+
+                connection.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
     }
 }

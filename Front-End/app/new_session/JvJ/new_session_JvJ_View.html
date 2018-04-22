@@ -1,40 +1,40 @@
-<div class="container">
+<div class="container" ng-init="OnInit()">
     <h2 class="text-center" id="heading" style="color:rgb(26,149,64);font-family:'Berkshire Swash', cursive;font-size:80px;">&nbsp;Antes de buscar a tu rival...</h2>
 </div>
 <div class="container text-center container-fluid" style="padding:0px;margin-left:auto;margin-right:auto;margin-bottom:85px;background-color:rgba(155,219,193,0);width:100%;height:auto;">
     <h2 class="text-center" style="margin:35px;font-family:Raleway, sans-serif;color:#f77f00;">Elige la ficha con la que deseas jugar</h2>
     <div class="row text-center" style="margin-left:35px; margin-right:auto; margin-bottom:25px; margin-top:35px;">
         <div class="col-md-12 col-lg-2">
-            <div class="form-check cc-selector"><input class="form-check-input" type="radio" id="f1" name="fichas" value="ficha1"><label class="form-check-label ficha-cc ficha1" for="f1"></label></div>
+            <div class="form-check cc-selector"><input checked="checked" ng-model="match_details.fichaJugador" class="form-check-input" type="radio" id="f1" name="fichas" value="f1.png"><label class="form-check-label ficha-cc ficha1" for="f1"></label></div>
         </div>
         <div class="col-md-12 col-lg-2">
-            <div class="form-check cc-selector"><input class="form-check-input" type="radio" id="f2" name="fichas" value="ficha2"><label class="form-check-label ficha-cc ficha2" for="f2"></label></div>
+            <div class="form-check cc-selector"><input ng-model="match_details.fichaJugador" class="form-check-input" type="radio" id="f2" name="fichas" value="f2.png"><label class="form-check-label ficha-cc ficha2" for="f2"></label></div>
         </div>
         <div class="col-md-12 col-lg-2">
-            <div class="form-check cc-selector"><input class="form-check-input" type="radio" id="f3" name="fichas" value="ficha3"><label class="form-check-label ficha-cc ficha3" for="f3"></label></div>
+            <div class="form-check cc-selector"><input ng-model="match_details.fichaJugador" class="form-check-input" type="radio" id="f3" name="fichas" value="f3.jpg"><label class="form-check-label ficha-cc ficha3" for="f3"></label></div>
         </div>
         <div class="col-md-12 col-lg-2">
-            <div class="form-check cc-selector"><input class="form-check-input" type="radio" id="f4" name="fichas" value="ficha4"><label class="form-check-label ficha-cc ficha4" for="f4"></label></div>
+            <div class="form-check cc-selector"><input ng-model="match_details.fichaJugador"  class="form-check-input" type="radio" id="f4" name="fichas" value="f4.png"><label class="form-check-label ficha-cc ficha4" for="f4"></label></div>
         </div>
         <div class="col-md-12 col-lg-2">
-            <div class="form-check cc-selector"><input class="form-check-input" type="radio" id="f5" name="fichas" value="ficha5"><label class="form-check-label ficha-cc ficha5" for="f5"></label></div>
+            <div class="form-check cc-selector"><input ng-model="match_details.fichaJugador" class="form-check-input" type="radio" id="f5" name="fichas" value="f5.png"><label class="form-check-label ficha-cc ficha5" for="f5"></label></div>
         </div>
     </div>
     <div class="row" style="margin-left:35px; margin-right:auto;">
         <div class="col-md-12 col-lg-2">
-            <div class="form-check cc-selector"><input class="form-check-input" type="radio" id="f6" name="fichas" value="ficha6"><label class="form-check-label ficha-cc ficha6" for="f6"></label></div>
+            <div class="form-check cc-selector"><input ng-model="match_details.fichaJugador" class="form-check-input" type="radio" id="f6" name="fichas" value="f6.png"><label class="form-check-label ficha-cc ficha6" for="f6"></label></div>
         </div>
         <div class="col-md-12 col-lg-2">
-            <div class="form-check cc-selector"><input class="form-check-input" type="radio" id="f7" name="fichas" value="ficha7"><label class="form-check-label ficha-cc ficha7" for="f7"></label></div>
+            <div class="form-check cc-selector"><input ng-model="match_details.fichaJugador" class="form-check-input" type="radio" id="f7" name="fichas" value="f7.png"><label class="form-check-label ficha-cc ficha7" for="f7"></label></div>
         </div>
         <div class="col-md-12 col-lg-2">
-            <div class="form-check cc-selector"><input class="form-check-input" type="radio" id="f8" name="fichas" value="ficha8"><label class="form-check-label ficha-cc ficha8" for="f8"></label></div>
+            <div class="form-check cc-selector"><input ng-model="match_details.fichaJugador" class="form-check-input" type="radio" id="f8" name="fichas" value="f8.png"><label class="form-check-label ficha-cc ficha8" for="f8"></label></div>
         </div>
         <div class="col-md-12 col-lg-2">
-            <div class="form-check cc-selector"><input class="form-check-input" type="radio" id="f9" name="fichas"><label class="form-check-label ficha-cc ficha9" for="f9"></label></div>
+            <div class="form-check cc-selector"><input ng-model="match_details.fichaJugador" class="form-check-input" type="radio" id="f9" name="fichas" value="f9.png"><label class="form-check-label ficha-cc ficha9" for="f9"></label></div>
         </div>
         <div class="col-md-12 col-lg-2">
-            <div class="form-check cc-selector"><input class="form-check-input" type="radio" id="f10" name="fichas" value="ficha10"><label class="form-check-label ficha-cc ficha10" for="f10" name="fichas"></label></div>
+            <div class="form-check cc-selector"><input ng-model="match_details.fichaJugador" class="form-check-input" type="radio" id="f10" name="fichas" value="f10.png"><label class="form-check-label ficha-cc ficha10" for="f10" name="fichas"></label></div>
         </div>
     </div>
 </div>
@@ -44,11 +44,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center">
-                <h2 class="text-center" style="margin-bottom:2px;height:68px;font-family:Raleway, sans-serif;color:#3d8e33;">Tamaño del tablero:&nbsp;<br><br></h2><input type="number" required="" id="size1" style="width:60px; margin: 20px;">
-                <p style="width:20%; display:inline; margin-right:15px;">X</p><input type="number" required="" id="size2" style="width:60px"></div>
+                <h2 class="text-center" style="margin-bottom:2px;height:68px;font-family:Raleway, sans-serif;color:#3d8e33;">Tamaño del tablero:&nbsp;<br><br></h2><input ng-model="match_details.tam" type="number" required="" id="size1" style="width:60px; margin: 20px;">
+                <p style="width:20%; display:inline; margin-right:15px;">X</p><input type="number" ng-model="match_details.tam" required="" id="size2" style="width:60px"></div>
             <div class="col-md-6 text-center">
-                <h2 class="text-center" style="margin-bottom:2px;height:68px;font-family:Raleway, sans-serif;color:#0074d9;">Partidas a jugar:&nbsp;<br><br></h2><input type="number" required="" id="n_partidas" style="width:60px; margin: 20px;"></div>
-            <div class="col text-center" id="jugar" style="margin-top:45px;"><button class="btn btn-success btn-success" type="submit">Todo listo. ¡Envía mi invitación!</button></div>
+                <h2 class="text-center" style="margin-bottom:2px;height:68px;font-family:Raleway, sans-serif;color:#0074d9;">Partidas a jugar:&nbsp;<br><br></h2><input ng-model="match_details.partidasJugar" type="number" required="" id="n_partidas" style="width:60px; margin: 20px;"></div>
+            <div class="col text-center" id="jugar"  style="margin-top:45px;"><button ng-click="openConfirmModal()"  class="btn btn-success btn-success" type="submit">Revisar mi información!</button></div>
         </div>
     </div>
 </div>
@@ -65,13 +65,34 @@
                 </button>
             </div>
             <div class="modal-body">
-                <select class="form-control" id="connectedPlayersList" ng-repeat="player in connectedPlayers">
-                    <option value="{{player.id}}">{{player.name}}</option>
+                <select class="form-control" id="connectedPlayersList" ng-model="selected_player.ID_Opponent" ng-change="selectPlayer()">
+                    <option ng-repeat="player in connectedPlayersList" value="{{player.ID_Facebook}}">{{player.Nombre}}</option>
                 </select>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" id="save_changes" disabled>Escoger Oponente</button>
+                <button type="button" class="btn btn-primary" id="checkUser" data-dismiss="modal" disabled>Escoger Oponente</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Choose connected players-->
+<div class="modal fade" id="ConfirmData" tabindex="-1" role="dialog" aria-labelledby="ConnectedPlayers" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ConfirmTitle">Revisemos todo de nuevo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <label><strong>Oponente:</strong> {{selected_player.Nombre}}</label> <br>
+                <label><strong>Tamaño de la matriz:</strong> {{match_details.tam}}</label> <br>
+                <label><strong>Cantidad de Partidas:</strong> {{match_details.partidasJugar}}</label>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="save_changes" ng-click="startMatch()" data-dismiss="modal">Todo listo. ¡Envía mi invitación!</button>
             </div>
         </div>
     </div>

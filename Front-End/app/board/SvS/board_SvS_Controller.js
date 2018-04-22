@@ -30,7 +30,7 @@ angular.module("appModule")
 
         $scope.juego_Terminado = false;
         $scope.jugadorActual = "1";
-        $scope.tam = 8;
+        $scope.tam = 4;
 
         //Permite crear la lista con todos las fichas de un jugador X
         function obtenerArregloFichas(item) {
@@ -90,8 +90,6 @@ angular.module("appModule")
                 tBody.appendChild(hilera);
             }
             document.getElementById("table-board").appendChild(tBody);
-            //if(!$scope.juego_Terminado && $scope.jugadorActual === "1")
-            //    solicitar_movimientos();//pide y pintas las movidas posibles
         }
 
         function generate_matriz() {

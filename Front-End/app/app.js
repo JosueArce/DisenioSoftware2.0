@@ -6,8 +6,11 @@ angular.module("appModule",['ngRoute'])
                 templateUrl : "board/JvS/board_JvS_View.html",
                 controller : "boardJvSController"
             }).when('/board/JvJ',{
-                templateUrl : "board/JvS/board_JvJ_View.html",
+                templateUrl : "board/JvJ/board_JvJ_View.html",
                 controller : "boardJvJController"
+            }).when('/board/SvS',{
+                templateUrl : "board/SvS/board_SvS_View.html",
+                controller : "boardSvSController"
             }).when('/newSession/JvS',{
                 templateUrl : "new_session/JvS/new_session_JvS_View.html",
                 controller : "new_sessionJvS_Controller"

@@ -136,5 +136,43 @@ namespace WebApi_Othello.Models
                 throw new InvalidOperationException(e.Message);
             }
         }
+
+
+        /// <summary>
+        /// Obtiene todos los jugadores activos 
+        /// </summary>
+        /// <returns></returns>
+        public List<Jugador> ConnectedPlayers()
+        {
+            List<Jugador> lista = new List<Jugador>();
+            Jugador registro;
+            try
+            {
+                connection.Open();
+                sqlQuery = "select ID_Facebook, Nombre_Jugador from dbo.[Jugadores] where Activo = 1";
+                command = new SqlCommand(sqlQuery, connection);
+
+                SqlDataReader reader = command.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+
+                while (reader.Read())
+                {
+                    registro = new Jugador //Obtiene los datos del jugador
+                    {
+                        ID_Facebook = reader.GetString(0),
+                        Nombre = reader.GetString(1)
+                    };
+                    lista.Add(registro);
+                }
+
+                connection.Close();
+
+                return lista;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
     }
 }

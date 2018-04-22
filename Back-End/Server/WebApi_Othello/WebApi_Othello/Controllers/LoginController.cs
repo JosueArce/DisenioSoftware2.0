@@ -28,6 +28,17 @@ namespace WebApi_Othello.Controllers
 
             return Json(new { Error = true, Message = "Operación HTTP desconocida" });
         }
-        
+
+        public JsonResult ConnectedPlayers()
+        {
+            switch (Request.HttpMethod)
+            {
+                case "POST":
+                    return Json(loginManager.ConnectedPlayers());
+            }
+
+            return Json(new { Error = true, Message = "Operación HTTP desconocida" });
+        }
+
     }
 }

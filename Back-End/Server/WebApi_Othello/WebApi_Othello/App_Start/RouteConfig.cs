@@ -24,6 +24,17 @@ namespace WebApi_Othello
                     action = "Login"//metodo a realizar(Login()), está en el controller Login
                 }
             );
+
+            routes.MapRoute(
+                "ConnectedPlayers",//ID de la ruta 
+                "ConnectedPlayers",//URL, ruta de acceso, para acceder al endPoint
+                new
+                {
+                    controller = "Login",//controlador usado)
+                    action = "ConnectedPlayers"//metodo a realizar(Login()), está en el controller Login
+                }
+            );
+
             routes.MapRoute(
                 "logOut",//ID de la ruta 
                 "logOut",//URL, ruta de acceso, para acceder al endPoint
@@ -92,6 +103,26 @@ namespace WebApi_Othello
                 {
                     controller = "Juego",//controlador usado(PersonaController)
                     action = "actualizarSesion"//metodo a realizar(Realizar_Jugada_Sis_Sis()), está en el controller Juego
+                }
+            );
+
+            routes.MapRoute(
+                "crearSesion",//ID de la ruta 
+                "crearSesion",//URL, ruta de acceso, para acceder al endPoint
+                new
+                {
+                    controller = "Juego",//controlador usado(PersonaController)
+                    action = "crearSesion"//metodo a realizar(Realizar_Jugada_Sis_Sis()), está en el controller Juego
+                }
+            );
+
+            routes.MapRoute(
+                "borrarSesion",//ID de la ruta 
+                "borrarSesion",//URL, ruta de acceso, para acceder al endPoint
+                new
+                {
+                    controller = "Juego",//controlador usado(PersonaController)
+                    action = "borrarSesion"//metodo a realizar(Realizar_Jugada_Sis_Sis()), está en el controller Juego
                 }
             );
 

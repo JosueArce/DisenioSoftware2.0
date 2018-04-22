@@ -64,6 +64,39 @@ namespace WebApi_Othello.Controllers
             return Json(new { Error = true, Message = "Operación HTTP desconocida" });
         }
 
+        public JsonResult crearSesion(string ID_Jugador1, string ID_Jugador2, int tam_matriz,string fichaJ1)
+        {
+            switch (Request.HttpMethod)
+            {
+                case "POST":
+                    return Json(juego.crearSesion(ID_Jugador1, ID_Jugador2,tam_matriz,fichaJ1));
+            }
+
+            return Json(new { Error = true, Message = "Operación HTTP desconocida" });
+        }
+
+        public JsonResult aceptarInvitacion(string ID_Sesion, string fichaJ2)
+        {
+            switch (Request.HttpMethod)
+            {
+                //case "POST":
+                   // return Json(juego.aceptarInvitacion(ID_Sesion,  fichaJ2));
+            }
+
+            return Json(new { Error = true, Message = "Operación HTTP desconocida" });
+        }
+
+        public JsonResult borrarSesion(int ID_Sesion)
+        {
+            switch (Request.HttpMethod)
+            {
+                case "POST":
+                    return Json(juego.borrarSesion(ID_Sesion));
+            }
+
+            return Json(new { Error = true, Message = "Operación HTTP desconocida" });
+        }
+
         public JsonResult actualizarSesion(Sesion sesion)
         {
             switch (Request.HttpMethod)
