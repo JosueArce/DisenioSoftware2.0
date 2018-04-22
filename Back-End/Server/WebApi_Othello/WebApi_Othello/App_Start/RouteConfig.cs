@@ -127,15 +127,34 @@ namespace WebApi_Othello
             );
 
             routes.MapRoute(
+                "extraerSesiones",//ID de la ruta 
+                "extraerSesiones",//URL, ruta de acceso, para acceder al endPoint
+                new
+                {
+                    controller = "Juego",//controlador usado(PersonaController)
+                    action = "extraer_sesiones"//
+                }
+            );
+
+            routes.MapRoute(
                 "extraerSesion",//ID de la ruta 
                 "extraerSesion",//URL, ruta de acceso, para acceder al endPoint
                 new
                 {
                     controller = "Juego",//controlador usado(PersonaController)
-                    action = "extraerSesion"//metodo a realizar(Realizar_Jugada_Sis_Sis()), está en el controller Juego
+                    action = "extraer_sesion"//
                 }
             );
 
+            routes.MapRoute(
+                "extraerJugadores",//ID de la ruta 
+                "extraerJugadores",//URL, ruta de acceso, para acceder al endPoint
+                new
+                {
+                    controller = "Juego",//controlador usado(PersonaController)
+                    action = "extraer_jugadores"//
+                }
+            );
 
             routes.MapRoute(
                 name: "Default",

@@ -119,6 +119,28 @@ namespace WebApi_Othello.Controllers
             return Json(new { Error = true, Message = "Operación HTTP desconocida" });
         }
 
+        public JsonResult extraer_sesion(int ID_Sesion)
+        {
+            switch (Request.HttpMethod)
+            {
+                case "POST":
+                    return Json(juego.extraer_sesion(ID_Sesion));
+            }
+
+            return Json(new { Error = true, Message = "Operación HTTP desconocida" });
+        }
+
+        public JsonResult extraer_jugadores()
+        {
+            switch (Request.HttpMethod)
+            {
+                case "POST":
+                    return Json(juego.extraer_jugadores());
+            }
+
+            return Json(new { Error = true, Message = "Operación HTTP desconocida" });
+        }
+
 
 
     }

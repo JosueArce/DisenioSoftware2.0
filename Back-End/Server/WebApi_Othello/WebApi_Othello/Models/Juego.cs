@@ -1183,7 +1183,7 @@ namespace WebApi_Othello.Models
             try
             {
                 connection.Open();
-                sqlQuery = "select *  dbo.[Sesiones]  where ID_Facebook = @ID_Facebook";
+                sqlQuery = "select * from dbo.[Sesiones] where ID_Facebook = @ID_Facebook";
                 command = new SqlCommand(sqlQuery, connection);
                 command.Parameters.AddWithValue("@ID_Facebook", ID_Facebook);
 
@@ -1235,6 +1235,77 @@ namespace WebApi_Othello.Models
                 Console.WriteLine(e.Message);
                 throw new InvalidOperationException(e.Message);
             }
+        }
+
+        public List<Sesion> extraer_sesion(int ID_Sesion)
+        {
+            List<Sesion> sesion=new List<Sesion>();
+            try
+            {
+                connection.Open();
+                sqlQuery = "select * dbo.[Sesiones] where ID_Sesion = @ID_Sesion";
+                command = new SqlCommand(sqlQuery, connection);
+                command.Parameters.AddWithValue("@ID_Sesion", ID_Sesion);
+
+                SqlDataReader reader = command.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+                while (reader.Read())
+                {
+                    Sesion registro = new Sesion
+                    {
+                        ID_Sesion = reader.GetInt32(0),
+                        ID_Jugador1 = reader.GetString(1),
+                        ID_Jugador2 = reader.GetString(2),
+                        pos_fichas_J1 = reader.GetString(3),
+                        pos_fichas_J2 = reader.GetString(4),
+                        tam_matriz = reader.GetInt32(5),
+                        ficha_J1 = reader.GetString(6),
+                        ficha_J2 = reader.GetString(7)
+
+                    };
+                    sesion.Add(registro);
+                }
+
+                connection.Close();
+                return sesion;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
+
+        public List<Jugador> extraer_jugadores()
+        {
+            List<Jugador> jugadores = new List<Jugador>();
+            try
+            {
+                connection.Open();
+                sqlQuery = "select dbo.[ID_Facebook], dbo.[Nombre_Jugador] from dbo.[Jugadores] ";
+                command = new SqlCommand(sqlQuery, connection);
+
+                SqlDataReader reader = command.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
+                while (reader.Read())
+                {
+                    Jugador jugador = new Jugador
+                    {
+                        ID_Facebook = reader.GetString(0),
+                        Nombre = reader.GetString(1)
+
+                    };
+
+                    jugadores.Add(jugador);
+                }
+
+                connection.Close();
+                return jugadores;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+
         }
     }
 }
