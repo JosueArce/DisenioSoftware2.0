@@ -306,7 +306,7 @@ angular.module("appModule")
             if($scope.jugadorActual === "2"){
                 jugar();
             }
-        }, 1000);
+        }, 4000);
 
     })
 ;

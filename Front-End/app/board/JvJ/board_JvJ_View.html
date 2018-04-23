@@ -1,10 +1,10 @@
 
-<div class="container-fluid" id="container-board" >
+<div class="container-fluid" id="container-board" ng-init="OnInit()">
     <div class="card" id="card-board">
         <div class="card-header">
             <div class="row">
                 <div class="col-sm-10">
-                    <h5 class="card-title">{{player.name}} VS {{opponent.name}} -  Partida Actual : {{cantidad_partidas}}</h5>
+                    <h5 class="card-title">{{Host.Nombre}} VS {{Invitado.Nombre}} -  Partida Actual : {{MatchDetails.CantidadPartidas}} - Turno de: {{MatchDetails.Nombre_JugadorActual}}</h5>
                 </div>
                 <div class="col-sm-2">
                     <h5 class="card-title">Othello</h5>
@@ -23,7 +23,7 @@
         <div class="card-footer text-muted">
             <h5 class="card-text"> <strong>Puntos: </strong>
                 <small class="text-muted">
-                    {{player.name}} : {{player.currentPoints}} - {{opponent.name}} : {{opponent.currentPoints}}
+                    {{Host.Nombre}} : {{Host.Puntos}} - {{Invitado.Nombre}} : {{Invitado.Puntos}}
                 </small>
             </h5>
         </div>

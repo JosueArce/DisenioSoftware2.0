@@ -62,7 +62,25 @@ angular.module("appModule")
             };
             localStorage.setItem("last_match_created_JvJ",JSON.stringify(match_details));
 
-            HttpRequest.Sesions(
+            var match = {
+                Host : JSON.parse(localStorage.getItem('user_information')).id,
+                Invitado : $scope.selected_player.ID_Opponent
+            };
+            localStorage.setItem("Curret_Match_JvJ",JSON.stringify(match));
+
+            console.log({
+                method : "POST",
+                endPoint : "crearSesion",
+                body : {
+                    ID_Jugador1 : JSON.parse(localStorage.getItem('user_information')).id,
+                    ID_Jugador2 : $scope.selected_player.ID_Opponent,
+                    tam_matriz : match_details.tam_matriz,
+                    fichaJ1 : match_details.ficha_jugador1,
+                    CantPartidas : $scope.match_details.partidasJugar
+
+                }
+            });
+            HttpRequest.Sessions(
                 {
                     method : "POST",
                     endPoint : "crearSesion",
@@ -70,7 +88,8 @@ angular.module("appModule")
                         ID_Jugador1 : JSON.parse(localStorage.getItem('user_information')).id,
                         ID_Jugador2 : $scope.selected_player.ID_Opponent,
                         tam_matriz : match_details.tam_matriz,
-                        fichaJ1 : match_details.ficha_jugador1
+                        fichaJ1 : match_details.ficha_jugador1,
+                        CantPartidas : $scope.match_details.partidasJugar
 
                     }
                 },function (response) {

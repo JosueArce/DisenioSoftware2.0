@@ -157,6 +157,26 @@ namespace WebApi_Othello
             );
 
             routes.MapRoute(
+                "aceptarSesion",//ID de la ruta 
+                "aceptarSesion",//URL, ruta de acceso, para acceder al endPoint
+                new
+                {
+                    controller = "Juego",//controlador usado(JuegoController)
+                    action = "aceptarSesion"//
+                }
+            );
+
+            routes.MapRoute(
+                "updateFichaJ2",//ID de la ruta 
+                "updateFichaJ2",//URL, ruta de acceso, para acceder al endPoint
+                new
+                {
+                    controller = "Juego",//controlador usado(JuegoController)
+                    action = "updateFichaJ2"//
+                }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

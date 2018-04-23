@@ -11,6 +11,21 @@ angular.module("appModule")
                     callback(response);
                 })
             },
+            player_vs_player : function (http_data,callback) {
+                $http({
+                    method : http_data.method,
+                    url : "http://localhost:50714/"+http_data.endPoint,
+                    dataType: 'json',
+                    params : http_data.body,
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                }).then(function successCallback(response) {
+                    callback(response);
+                }).catch(function errorCallback(response) {
+                    callback(response);
+                })
+            },
             player_vs_system : function (http_data,callback) {
                 $http({
                     method : http_data.method,
@@ -55,7 +70,7 @@ angular.module("appModule")
                     callback(response);
                 })
             },
-            Sesions : function (http_data,callback) {
+            Sessions : function (http_data,callback) {
                 $http({
                     method : http_data.method,
                     url : "http://localhost:50714/"+http_data.endPoint,
@@ -64,6 +79,22 @@ angular.module("appModule")
                     headers: {
                         "Content-Type": "application/json"
                     }
+                }).then(function successCallback(response) {
+                    callback(response);
+                }).catch(function errorCallback(response) {
+                    callback(response);
+                })
+            },
+            Accept_Invite : function (http_data, callback) {
+                $http({
+                    method : http_data.method,
+                    url : "http://localhost:50714/"+http_data.endPoint,
+                    dataType: 'json',
+                    params : http_data.body,
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+
                 }).then(function successCallback(response) {
                     callback(response);
                 }).catch(function errorCallback(response) {

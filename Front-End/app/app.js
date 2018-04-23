@@ -2,7 +2,10 @@ angular.module("appModule",['ngRoute'])
     .config(
         function ($routeProvider,$locationProvider) {
             $locationProvider.hashPrefix('');
-            $routeProvider.when('/board/JvS',{
+            $routeProvider.when('/sessions',{
+                templateUrl : "sessions/sessions_View.html",
+                controller : "sessions_Controller"
+            }).when('/board/JvS',{
                 templateUrl : "board/JvS/board_JvS_View.html",
                 controller : "boardJvSController"
             }).when('/board/JvJ',{
@@ -20,9 +23,6 @@ angular.module("appModule",['ngRoute'])
             }).when('/status',{
                 templateUrl : "status/status_View.html",
                 controller : "status_Controller"
-            }).when('/sessions',{
-                templateUrl : "",
-                controller : ""
             }).when('/',{
                 templateUrl : "home/home_View.html",
                 controller : "home_Controller"

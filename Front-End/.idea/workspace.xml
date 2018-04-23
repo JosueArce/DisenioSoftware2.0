@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9a99e20-7082-427d-a8db-2fa0c3acfbae" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/board/JvS/board_JvS_View.html" />
+=======
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+=======
+      <change beforePath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/.vs/VSWorkspaceState.json" afterPath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/.vs/VSWorkspaceState.json" />
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+      <change beforePath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/.vs/WebApi_Othello/v15/.suo" afterPath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/.vs/WebApi_Othello/v15/.suo" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/.vs/WebApi_Othello/v15/Server/sqlite3/storage.ide" afterPath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/.vs/WebApi_Othello/v15/Server/sqlite3/storage.ide" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/.vs/slnx.sqlite" afterPath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/.vs/slnx.sqlite" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/App_Start/RouteConfig.cs" afterPath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/App_Start/RouteConfig.cs" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/Models/Estadisticas_Manager.cs" afterPath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/Models/Estadisticas_Manager.cs" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/bin/WebApi_Othello.dll" afterPath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/bin/WebApi_Othello.dll" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/bin/WebApi_Othello.pdb" afterPath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/bin/WebApi_Othello.pdb" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/obj/Debug/WebApi_Othello.dll" afterPath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/obj/Debug/WebApi_Othello.dll" />
+      <change beforePath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/obj/Debug/WebApi_Othello.pdb" afterPath="$PROJECT_DIR$/../Back-End/Server/WebApi_Othello/WebApi_Othello/obj/Debug/WebApi_Othello.pdb" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Factories/Http_Request.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
+      <change beforePath="$PROJECT_DIR$/app/board/board_CSS.css" afterPath="$PROJECT_DIR$/app/board/JvS/board_JvS_CSS.css" />
+      <change beforePath="$PROJECT_DIR$/app/board/board_Controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/board/board_View.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/home/home_View.html" afterPath="$PROJECT_DIR$/app/home/home_View.html" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change beforePath="$PROJECT_DIR$/app/new_session/new_session.css" afterPath="$PROJECT_DIR$/app/new_session/JvS/new_session_JvS.css" />
+      <change beforePath="$PROJECT_DIR$/app/new_session/new_session_View.html" afterPath="$PROJECT_DIR$/app/new_session/JvS/new_session_JvS_View.html" />
+      <change beforePath="$PROJECT_DIR$/app/status/status_View.html" afterPath="$PROJECT_DIR$/app/status/status_View.html" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+=======
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="72" column="85" lean-forward="true" selection-start-line="72" selection-start-column="85" selection-end-line="72" selection-end-column="85" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="board_JvS_Controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/board/JvS/board_JvS_Controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+              <folding>
+                <element signature="e#803#966#0" expanded="false" />
+                <element signature="e#1948#3669#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="new_session_JvS_View.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/new_session/JvS/new_session_JvS_View.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="27" column="166" lean-forward="false" selection-start-line="27" selection-start-column="166" selection-end-line="27" selection-end-column="166" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+              </folding>
+=======
+      <file leaf-file-name="status_View.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/status/status_View.html">
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="125" lean-forward="false" selection-start-line="0" selection-start-column="125" selection-end-line="0" selection-end-column="125" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="status_Controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/status/status_Controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="756">
+              <caret line="85" column="39" lean-forward="false" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+              <folding>
+                <element signature="e#107#373#0" expanded="false" />
+                <element signature="e#907#1948#0" expanded="false" />
+                <element signature="e#983#1287#0" expanded="false" />
+                <element signature="e#1372#1936#0" expanded="false" />
+                <element signature="e#2132#2297#0" expanded="false" />
+                <element signature="e#2503#2701#0" expanded="false" />
+                <element signature="e#3215#3418#0" expanded="false" />
+                <marker date="1524003351247" expanded="true" signature="454:3500" ph="{...}" />
+                <marker date="1524003351247" expanded="true" signature="2793:3500" ph="{...}" />
+                <marker date="1524003351247" expanded="true" signature="2917:3500" ph="{...}" />
+                <marker date="1524003351247" expanded="true" signature="3439:3500" ph="{...}" />
+              </folding>
+=======
+            <state relative-caret-position="441">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Http_Request.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Services/Factories/Http_Request.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="210">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+=======
+            <state relative-caret-position="147">
+              <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+              <folding />
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="new_session_JvS_Controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/new_session/JvS/new_session_JvS_Controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2205">
+              <caret line="105" column="7" lean-forward="false" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+=======
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="39" />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/Libraries/CSS/Login_CSS.css" />
+        <option value="$PROJECT_DIR$/login_Controller.js" />
+        <option value="$PROJECT_DIR$/app/home/home_CSS.css" />
+        <option value="$PROJECT_DIR$/app/index_CSS.css" />
+        <option value="$PROJECT_DIR$/app/logIn/login_CSS.css" />
+        <option value="$PROJECT_DIR$/app/logIn/login_View.html" />
+        <option value="$PROJECT_DIR$/app/index.css" />
+        <option value="$PROJECT_DIR$/app/status/status.css" />
+        <option value="$PROJECT_DIR$/app/new_session/new_session.css" />
+        <option value="$PROJECT_DIR$/app/new_session/new_session_Controller.js" />
+        <option value="$PROJECT_DIR$/Libraries/JS/jquery-signalr.min.js" />
+        <option value="$PROJECT_DIR$/app/home/home_Controller.js" />
+        <option value="$PROJECT_DIR$/app/logIn/login_Controller.js" />
+        <option value="$PROJECT_DIR$/app/new_session/new_session_View.html" />
+        <option value="$PROJECT_DIR$/app/Services/Factories/Http_Request.js" />
+        <option value="$PROJECT_DIR$/app/Services/Factories/Main/Http_Request.js" />
+        <option value="$PROJECT_DIR$/app/status/status_View.html" />
+        <option value="$PROJECT_DIR$/app/status/status_Controller.js" />
+        <option value="$PROJECT_DIR$/app/home/home_View.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/board/board_View.html" />
+        <option value="$PROJECT_DIR$/app/board/board_Controller.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/board/JvS/board_JvS_View.html" />
+        <option value="$PROJECT_DIR$/app/new_session/JvS/new_session_JvS_View.html" />
+        <option value="$PROJECT_DIR$/app/new_session/JvS/new_session_JvS_Controller.js" />
+        <option value="$PROJECT_DIR$/app/board/JvS/board_JvS_Controller.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="913" />
+    <option name="width" value="1015" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+            </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+              <item name="JvS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="Libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Front-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Front-End" type="462c0819:PsiDirectoryNode" />
+              <item name="Libraries" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Front-End\app\board\JvS" />
+      <recent name="C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Front-End\app\new_session\JvS" />
+      <recent name="C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Front-End\app\Services\Factories\Login" />
+      <recent name="C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Front-End\Pruebas\mainProject\Libraries\Font Awesome\CSS" />
+      <recent name="C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Front-End\Pruebas\mainProject\Libraries\Font Awesome\JS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Front-End\Images" />
+      <recent name="C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Front-End\Libraries\Font Awesome" />
+      <recent name="C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Front-End\Libraries\Font Awesome\JS" />
+      <recent name="C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Front-End\Pruebas\mainProject\Libraries\Font Awesome\CSS" />
+      <recent name="C:\Users\Josue\Documents\TEC\Semestre 5\Diseño de Software\Proyecto 1\Dise-o-de-Software\Front-End\Pruebas\mainProject\Libraries\JS" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9a99e20-7082-427d-a8db-2fa0c3acfbae" name="Default" comment="" />
+      <created>1520793491809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520793491809</updated>
+      <workItem from="1520793493016" duration="21977000" />
+      <workItem from="1520880125509" duration="2404000" />
+      <workItem from="1520969630386" duration="16390000" />
+      <workItem from="1520986719430" duration="2000" />
+      <workItem from="1521043608302" duration="1940000" />
+      <workItem from="1521080547176" duration="2237000" />
+      <workItem from="1521125339944" duration="4972000" />
+      <workItem from="1521137667147" duration="62000" />
+      <workItem from="1521140231628" duration="458000" />
+      <workItem from="1521150106272" duration="598000" />
+      <workItem from="1521219139384" duration="60000" />
+      <workItem from="1521753708305" duration="439000" />
+      <workItem from="1521832137036" duration="37000" />
+      <workItem from="1522695967970" duration="4735000" />
+      <workItem from="1522726766711" duration="25000" />
+      <workItem from="1523543215360" duration="6976000" />
+      <workItem from="1523942399043" duration="2397000" />
+      <workItem from="1523991400808" duration="1717000" />
+<<<<<<< HEAD
+      <workItem from="1523995009089" duration="715000" />
+      <workItem from="1524003973738" duration="1756000" />
+=======
+      <workItem from="1523995009089" duration="2836000" />
+<<<<<<< HEAD
+      <workItem from="1524004608806" duration="8876000" />
+      <workItem from="1524025093634" duration="6047000" />
+=======
+      <workItem from="1524004608806" duration="958000" />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="85185000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="69897000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="913" y="0" width="1015" height="1038" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19057171" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="71220000" />
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16129032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3002232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/logIn/login_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#107#373#0" expanded="false" />
+            <element signature="e#907#1948#0" expanded="false" />
+            <element signature="e#983#1287#0" expanded="false" />
+            <element signature="e#1372#1936#0" expanded="false" />
+            <element signature="e#2132#2297#0" expanded="false" />
+            <element signature="e#2503#2701#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#3215#3418#0" expanded="false" />
+            <marker date="1524003351247" expanded="true" signature="454:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="2793:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="2917:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="3439:3500" ph="{...}" />
+=======
+            <element signature="e#4177#4516#0" expanded="false" />
+            <element signature="e#4576#4845#0" expanded="false" />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+          </folding>
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/logIn/login_View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/logIn/login_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#107#373#0" expanded="false" />
+            <element signature="e#907#1948#0" expanded="false" />
+            <element signature="e#983#1287#0" expanded="false" />
+            <element signature="e#1372#1936#0" expanded="false" />
+            <element signature="e#2132#2297#0" expanded="false" />
+            <element signature="e#2503#2701#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#3215#3418#0" expanded="false" />
+            <marker date="1524003351247" expanded="true" signature="454:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="2793:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="2917:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="3439:3500" ph="{...}" />
+=======
+            <element signature="e#4177#4516#0" expanded="false" />
+            <element signature="e#4576#4845#0" expanded="false" />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+          </folding>
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/logIn/login_View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/logIn/login_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#107#373#0" expanded="false" />
+            <element signature="e#907#1948#0" expanded="false" />
+            <element signature="e#983#1287#0" expanded="false" />
+            <element signature="e#1372#1936#0" expanded="false" />
+            <element signature="e#2132#2297#0" expanded="false" />
+            <element signature="e#2503#2701#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#3215#3418#0" expanded="false" />
+            <marker date="1524003351247" expanded="true" signature="454:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="2793:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="2917:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="3439:3500" ph="{...}" />
+=======
+            <element signature="e#4177#4516#0" expanded="false" />
+            <element signature="e#4576#4845#0" expanded="false" />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+          </folding>
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/logIn/login_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="82" selection-end-column="9" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#107#373#0" expanded="false" />
+            <element signature="e#907#1948#0" expanded="false" />
+            <element signature="e#983#1287#0" expanded="false" />
+            <element signature="e#1372#1936#0" expanded="false" />
+            <element signature="e#2132#2297#0" expanded="false" />
+            <element signature="e#2503#2701#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#3215#3418#0" expanded="false" />
+            <marker date="1524003351247" expanded="true" signature="454:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="2793:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="2917:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="3439:3500" ph="{...}" />
+=======
+            <element signature="e#4177#4516#0" expanded="false" />
+            <element signature="e#4576#4845#0" expanded="false" />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+          </folding>
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/board/JvS/board_JvS_View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="115" lean-forward="false" selection-start-line="15" selection-start-column="115" selection-end-line="15" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/board/JvS/board_JvS_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/board/JvS/board_JvS_View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/board/JvS/board_JvS_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="39" column="71" lean-forward="false" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/JS/notify.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14963" column="12" lean-forward="false" selection-start-line="14963" selection-start-column="12" selection-end-line="14963" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/Font Awesome/JS/fa-solid.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/board/JvS/board_JvS_CSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/ficha1.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/logIn/login_CSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/JS/fa-brands.min.js" />
+    <entry file="file://$PROJECT_DIR$/Libraries/JS/fontawesome.js" />
+    <entry file="file://$PROJECT_DIR$/Libraries/Font Awesome/CSS/fontawesome-all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Desktop/termsfeed-privacy-policy-html-english.html" />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/Services/Factories/Http_Request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/status/status.css" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/status/status.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+    <entry file="file://$PROJECT_DIR$/app/logIn/login_View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Libraries/Font Awesome/JS/bs-animation.js" />
+    <entry file="file://$PROJECT_DIR$/app/new_session/new_session.css" />
+    <entry file="file://$PROJECT_DIR$/Images/f1.png" />
+    <entry file="file://$PROJECT_DIR$/Images/f2.png" />
+    <entry file="file://$PROJECT_DIR$/app/board/board_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="52" lean-forward="false" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home.css" />
+    <entry file="file://$PROJECT_DIR$/app/new_session/new_session_Controller.js" />
+    <entry file="file://$PROJECT_DIR$/app/new_session/new_session_View.html" />
+    <entry file="file://$PROJECT_DIR$/app/status/status_View.html" />
+    <entry file="file://$PROJECT_DIR$/Libraries/JS/jquery-signalr.min.js" />
+    <entry file="file://$PROJECT_DIR$/app/home/home_View.html" />
+    <entry file="file://$PROJECT_DIR$/app/status/status_Controller.js" />
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/Libraries/Font Awesome/JS/bs-animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/new_session/JvS/new_session_JvS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/f1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/f2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/JS/jquery-signalr.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="37063" lean-forward="false" selection-start-line="8" selection-start-column="37063" selection-end-line="8" selection-end-column="37063" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Factories/Login/Http_Request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/logIn/login_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="83" column="51" lean-forward="false" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Factories/Main/Http_Request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="103" lean-forward="false" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/status/status_View.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="273">
+          <caret line="13" column="144" lean-forward="false" selection-start-line="13" selection-start-column="144" selection-end-line="13" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home_View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home_Controller.js">
+=======
+        <state relative-caret-position="336">
+          <caret line="16" column="100" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="100" />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home_Controller.js" />
+    <entry file="file://$PROJECT_DIR$/app/logIn/login_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="83" column="51" lean-forward="false" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+          <folding>
+            <element signature="e#107#373#0" expanded="false" />
+            <element signature="e#907#1948#0" expanded="false" />
+            <element signature="e#983#1287#0" expanded="false" />
+            <element signature="e#1372#1936#0" expanded="false" />
+            <element signature="e#2132#2297#0" expanded="false" />
+            <element signature="e#2503#2701#0" expanded="false" />
+<<<<<<< HEAD
+            <element signature="e#3215#3418#0" expanded="false" />
+            <marker date="1524003351247" expanded="true" signature="454:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="2793:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="2917:3500" ph="{...}" />
+            <marker date="1524003351247" expanded="true" signature="3439:3500" ph="{...}" />
+=======
+            <element signature="e#4177#4516#0" expanded="false" />
+            <element signature="e#4576#4845#0" expanded="false" />
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/board/board_View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="100" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="105" column="7" lean-forward="false" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+          <folding />
+=======
+>>>>>>> 962f7c643b9ebc346577e00e046afd50a80fe9fe
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/status/status_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="80" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/board/JvS/board_JvS_View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="127" lean-forward="false" selection-start-line="31" selection-start-column="127" selection-end-line="31" selection-end-column="127" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#table#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/new_session/JvS/new_session_JvS_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/new_session/JvS/new_session_JvS_View.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="166" lean-forward="false" selection-start-line="27" selection-start-column="166" selection-end-line="27" selection-end-column="166" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="72" column="85" lean-forward="true" selection-start-line="72" selection-start-column="85" selection-end-line="72" selection-end-column="85" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/board/JvS/board_JvS_Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="e#803#966#0" expanded="false" />
+            <element signature="e#1948#3669#0" expanded="false" />
+          </folding>
+>>>>>>> 90c41e43260eabf6095bd71949b4fe29a1d8b5a4
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

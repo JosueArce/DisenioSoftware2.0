@@ -1124,17 +1124,18 @@ namespace WebApi_Othello.Models
 
         }
 
-        public bool crearSesion(string ID_Jugador1, string ID_Jugador2,  int tam_matriz, string fJ1)
+        public bool crearSesion(string ID_Jugador1, string ID_Jugador2,  int tam_matriz, string fJ1,int CantPartidas)
         {
             try
             {
                 connection.Open();
-                sqlQuery = "insert into dbo.[Sesiones] values(@ID_Jugador1,@ID_Jugador2,@tam_matriz,'pJ1','pJ2',1, @ficha_J1,'fJ2',1,0)";
+                sqlQuery = "insert into dbo.[Sesiones] values(@ID_Jugador1,@ID_Jugador2,@tam_matriz,'pJ1','pJ2',1, @ficha_J1,'fJ2',1,0,@partidas)";
                 command = new SqlCommand(sqlQuery, connection);
                 command.Parameters.AddWithValue("@ID_Jugador1", ID_Jugador1);
                 command.Parameters.AddWithValue("@ID_Jugador2", ID_Jugador2);
                 command.Parameters.AddWithValue("@tam_matriz", tam_matriz);
                 command.Parameters.AddWithValue("@ficha_J1", fJ1);
+                command.Parameters.AddWithValue("@partidas", CantPartidas);
 
                 int resp = command.ExecuteNonQuery();
 
@@ -1183,7 +1184,7 @@ namespace WebApi_Othello.Models
             try
             {
                 connection.Open();
-                sqlQuery = "select * from dbo.[Sesiones] where ID_Facebook = @ID_Facebook";
+                sqlQuery = "select * from (select ID_Sesion,ID_Jugador1,ID_Jugador2,tam_matriz,pos_fichas_J1,pos_fichas_J2,Estado,ficha_J1,ficha_J2,Turno,Aceptada,CantidadPartidas from dbo.[Sesiones] where ID_Jugador2 = @ID_Facebook AND Aceptada = 0) as S inner join (select ID_Facebook, Nombre_Jugador from dbo.[Jugadores]) as J on S.ID_Jugador1 = J.ID_Facebook ";
                 command = new SqlCommand(sqlQuery, connection);
                 command.Parameters.AddWithValue("@ID_Facebook", ID_Facebook);
 
@@ -1195,11 +1196,16 @@ namespace WebApi_Othello.Models
                         ID_Sesion = reader.GetInt32(0),
                         ID_Jugador1 = reader.GetString(1),
                         ID_Jugador2 = reader.GetString(2),
-                        pos_fichas_J1 = reader.GetString(3),
-                        pos_fichas_J2 = reader.GetString(4),
-                        tam_matriz = reader.GetInt32(5),
-                        ficha_J1 = reader.GetString(6),
-                        ficha_J2 = reader.GetString(7)
+                        tam_matriz = reader.GetInt32(3),
+                        pos_fichas_J1 = reader.GetString(4),
+                        pos_fichas_J2 = reader.GetString(5),
+                        estado = reader.GetBoolean(6),
+                        ficha_J1 = reader.GetString(7),
+                        ficha_J2 = reader.GetString(8),
+                        turno = reader.GetString(9),
+                        aceptado = reader.GetBoolean(10),
+                        CantidadPartidas = reader.GetInt32(11),
+                        Nombre_Oponente = reader.GetString(13)
 
                     };
 
@@ -1237,15 +1243,16 @@ namespace WebApi_Othello.Models
             }
         }
 
-        public List<Sesion> extraer_sesion(int ID_Sesion)
+        public List<Sesion> extraer_sesion(string ID_J1, string ID_J2)
         {
             List<Sesion> sesion=new List<Sesion>();
             try
             {
                 connection.Open();
-                sqlQuery = "select * dbo.[Sesiones] where ID_Sesion = @ID_Sesion";
+                sqlQuery = "select * from dbo.[Sesiones] where ID_Jugador1 = @ID_Jugador1 AND ID_Jugador2 = @ID_Jugador2";
                 command = new SqlCommand(sqlQuery, connection);
-                command.Parameters.AddWithValue("@ID_Sesion", ID_Sesion);
+                command.Parameters.AddWithValue("@ID_Jugador1", ID_J1);
+                command.Parameters.AddWithValue("@ID_Jugador2", ID_J2);
 
                 SqlDataReader reader = command.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
                 while (reader.Read())
@@ -1255,11 +1262,15 @@ namespace WebApi_Othello.Models
                         ID_Sesion = reader.GetInt32(0),
                         ID_Jugador1 = reader.GetString(1),
                         ID_Jugador2 = reader.GetString(2),
-                        pos_fichas_J1 = reader.GetString(3),
-                        pos_fichas_J2 = reader.GetString(4),
-                        tam_matriz = reader.GetInt32(5),
-                        ficha_J1 = reader.GetString(6),
-                        ficha_J2 = reader.GetString(7)
+                        tam_matriz = reader.GetInt32(3),
+                        pos_fichas_J1 = reader.GetString(4),
+                        pos_fichas_J2 = reader.GetString(5),
+                        estado = reader.GetBoolean(6),
+                        ficha_J1 = reader.GetString(7),
+                        ficha_J2 = reader.GetString(8),
+                        turno = reader.GetString(9),
+                        aceptado = reader.GetBoolean(10),
+                        CantidadPartidas = reader.GetInt32(11)
 
                     };
                     sesion.Add(registro);
@@ -1281,7 +1292,7 @@ namespace WebApi_Othello.Models
             try
             {
                 connection.Open();
-                sqlQuery = "select dbo.[ID_Facebook], dbo.[Nombre_Jugador] from dbo.[Jugadores] ";
+                sqlQuery = "select ID_Facebook, Nombre_Jugador from dbo.[Jugadores]";
                 command = new SqlCommand(sqlQuery, connection);
 
                 SqlDataReader reader = command.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
@@ -1307,5 +1318,54 @@ namespace WebApi_Othello.Models
             }
 
         }
+
+        public bool aceptar_sesion(int ID_Sesion)
+        {
+            try
+            {
+                connection.Open();
+                sqlQuery = "update dbo.[Sesiones] set Aceptada = 1 where ID_Sesion = @ID_Sesion";
+                command = new SqlCommand(sqlQuery, connection);
+                command.Parameters.AddWithValue("@ID_Sesion", ID_Sesion);
+
+                int resp = command.ExecuteNonQuery();
+
+                connection.Close();
+
+                if (resp == 0) return false; //no hizo el update
+                else return true; //se hizo el update bien
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
+
+        public bool updateFichaJ2(int ID_Sesion,string fichaJ2)
+        {
+            try
+            {
+                connection.Open();
+                sqlQuery = "update dbo.[Sesiones] set ficha_J2 = @ficha_J2 where ID_Sesion = @ID_Sesion";
+                command = new SqlCommand(sqlQuery, connection);
+                command.Parameters.AddWithValue("@ID_Sesion", ID_Sesion);
+                command.Parameters.AddWithValue("@ficha_J2", fichaJ2);
+
+                int resp = command.ExecuteNonQuery();
+
+                connection.Close();
+
+                if (resp == 0) return false; //no hizo el update
+                else return true; //se hizo el update bien
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw new InvalidOperationException(e.Message);
+            }
+        }
+
+
     }
 }

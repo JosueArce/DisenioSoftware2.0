@@ -64,23 +64,23 @@ namespace WebApi_Othello.Controllers
             return Json(new { Error = true, Message = "Operación HTTP desconocida" });
         }
 
-        public JsonResult crearSesion(string ID_Jugador1, string ID_Jugador2, int tam_matriz,string fichaJ1)
+        public JsonResult crearSesion(string ID_Jugador1, string ID_Jugador2, int tam_matriz,string fichaJ1, int CantPartidas)
         {
             switch (Request.HttpMethod)
             {
                 case "POST":
-                    return Json(juego.crearSesion(ID_Jugador1, ID_Jugador2,tam_matriz,fichaJ1));
+                    return Json(juego.crearSesion(ID_Jugador1, ID_Jugador2,tam_matriz,fichaJ1,CantPartidas));
             }
 
             return Json(new { Error = true, Message = "Operación HTTP desconocida" });
         }
 
-        public JsonResult aceptarInvitacion(string ID_Sesion, string fichaJ2)
+        public JsonResult updateFichaJ2(int ID_Sesion, string fichaJ2)
         {
             switch (Request.HttpMethod)
             {
-                //case "POST":
-                   // return Json(juego.aceptarInvitacion(ID_Sesion,  fichaJ2));
+                case "POST":
+                    return Json(juego.updateFichaJ2(ID_Sesion,fichaJ2));
             }
 
             return Json(new { Error = true, Message = "Operación HTTP desconocida" });
@@ -119,12 +119,12 @@ namespace WebApi_Othello.Controllers
             return Json(new { Error = true, Message = "Operación HTTP desconocida" });
         }
 
-        public JsonResult extraer_sesion(int ID_Sesion)
+        public JsonResult extraer_sesion(string ID_J1, string ID_J2)
         {
             switch (Request.HttpMethod)
             {
                 case "POST":
-                    return Json(juego.extraer_sesion(ID_Sesion));
+                    return Json(juego.extraer_sesion(ID_J1,ID_J2));
             }
 
             return Json(new { Error = true, Message = "Operación HTTP desconocida" });
@@ -136,6 +136,17 @@ namespace WebApi_Othello.Controllers
             {
                 case "POST":
                     return Json(juego.extraer_jugadores());
+            }
+
+            return Json(new { Error = true, Message = "Operación HTTP desconocida" });
+        }
+
+        public JsonResult aceptarSesion(int ID_Sesion)
+        {
+            switch (Request.HttpMethod)
+            {
+                case "POST":
+                    return Json(juego.aceptar_sesion(ID_Sesion));
             }
 
             return Json(new { Error = true, Message = "Operación HTTP desconocida" });

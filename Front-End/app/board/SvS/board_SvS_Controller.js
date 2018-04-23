@@ -191,7 +191,7 @@ angular.module("appModule")
 
         setInterval(function () {
             jugar();
-        }, 2000);
+        }, 4000);
 
     })
 ;
